@@ -1,0 +1,9 @@
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\bin\Debug\netstandard2.1\EFDataAccessLibrary.deps.json
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\bin\Debug\netstandard2.1\EFDataAccessLibrary.dll
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\bin\Debug\netstandard2.1\EFDataAccessLibrary.pdb
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\obj\Debug\netstandard2.1\EFDataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\obj\Debug\netstandard2.1\EFDataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\obj\Debug\netstandard2.1\EFDataAccessLibrary.AssemblyInfo.cs
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\obj\Debug\netstandard2.1\EFDataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\obj\Debug\netstandard2.1\EFDataAccessLibrary.dll
+C:\Users\vaini\OneDrive\Desktop\6 Semestras\C#\EntintyFramework\EFCore\EFDataAccessLibrary\obj\Debug\netstandard2.1\EFDataAccessLibrary.pdb

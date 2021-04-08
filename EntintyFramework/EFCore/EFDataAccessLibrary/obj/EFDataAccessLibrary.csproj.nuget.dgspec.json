@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vaini\\OneDrive\\Desktop\\6 Semestras\\C#\\EntintyFramework\\EFCore\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vaini\\OneDrive\\Desktop\\6 Semestras\\C#\\EntintyFramework\\EFCore\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vaini\\OneDrive\\Desktop\\6 Semestras\\C#\\EntintyFramework\\EFCore\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj",
+        "projectName": "EFDataAccessLibrary",
+        "projectPath": "C:\\Users\\vaini\\OneDrive\\Desktop\\6 Semestras\\C#\\EntintyFramework\\EFCore\\EFDataAccessLibrary\\EFDataAccessLibrary.csproj",
+        "packagesPath": "C:\\Users\\vaini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vaini\\OneDrive\\Desktop\\6 Semestras\\C#\\EntintyFramework\\EFCore\\EFDataAccessLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vaini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

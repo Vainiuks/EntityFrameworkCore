@@ -1,0 +1,84 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+  
+    <form method="post">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        Įveskite darbuotojo vardą
+                    </td>
+                    <td>
+                        <input type="text" asp-for="Workers.Name" placeholder="Worker name" />
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Įveskite darbuotojo pavardę
+                    </td>
+                    <td>
+                        <input type="text" asp-for="Workers.Surname" placeholder="Worker surname" />
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Įveskite darbuotojo poziciją
+                    </td>
+                    <td>
+                        <input type="text" asp-for="Workers.Positions" placeholder="Worker position" />
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Įveskite darbuotojo el. pašto adresą
+                    </td>
+                    <td>
+                        <input type="text" asp-for="Workers.Emails" placeholder="Worker email" />
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Įveskite darbuotojo hobį
+                    </td>
+                    <td>
+                        <input type="text" asp-for="Workers.Hobbies" placeholder="Worker hobby" />
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Įveskite darbuotojo adresą
+                    </td>
+                    <td>
+                        <input type="text" asp-for="Workers.Addresses" placeholder="Worker address" />
+
+                    </td>
+                </tr>
+
+            </table>
+                <button type="submit">Add worker</button>
+        </div>
+    </form>
+    
+    
+    
+    
+
+
+</div>

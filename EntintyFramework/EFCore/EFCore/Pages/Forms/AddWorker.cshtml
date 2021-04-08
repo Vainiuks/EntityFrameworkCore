@@ -1,0 +1,75 @@
+﻿@page
+@model EFDataAccessLibrary.Models.Worker
+@{
+    ViewData["Title"] = "Add worker";
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Surname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hobbies)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Positions)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Emails)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Addresses)
+        </th>
+    </tr>
+</table>
+
+<form asp-action="Index" class="form-horizontal">
+    <div class="form-group">
+        <table>
+            <tr>
+
+                <td>
+                    Įveskite darbuotojo vardą
+                </td>
+                <td>
+                    <input asp-for="Name" class="form-control" />
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    Įveskite darbuotojo pavardę
+                </td>
+                <td>
+                    <input asp-for="Surname" class="form-control" />
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    Įveskite darbuotojo hobį
+                </td>
+                <td>
+                    <input asp-for="Hobbies" class="form-control" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Add worker" class="btn btn-primary"/>
+    </div>
+</form>
+
+@{ 
+    if(TempData["msg"]!=null)
+            {
+                <script>
+                    alert('@TempData["msg"]')
+                </script>
+            }
+}
